@@ -5,6 +5,19 @@ body {
   margin: 0;
   padding: 0;
 }
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 25px;
+  padding: 40px 50px;
+  box-shadow: 0 4px 21px rgba(0,0,0,0.1);
+}
+.section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
 
 .container {
   display: flex;
@@ -26,7 +39,7 @@ body {
   box-sizing: border-box;
 }
 
-.profile-pic {
+.profile-pic img{
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -250,6 +263,7 @@ hr {
     text-align: center;
   }
 }
+
 
 
 
