@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #dce9ff;
+  background-color: #4F80C0;
   color: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   position: sticky;
@@ -117,7 +117,7 @@ hr {
   width: 60%;
   margin: 30px auto;
   border: none;
-  border-top: 2px solid #F1BB6A;
+  border-top: 2px solid #A1CAE2;
 }
 
 /* ========== MAIN CONTENT ========== */
