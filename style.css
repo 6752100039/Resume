@@ -15,7 +15,8 @@ body {
 /* ========== HEADER ========== */
 header {
   display: flex;
-  justify-content: space-between; /* แก้จาก flex-start เป็น space-between */
+  justify-content: flex-start;
+  gap: 30px;
   align-items: center;
   padding: 20px 50px;
   background-color: #4F80C0;
@@ -51,6 +52,7 @@ header {
   list-style: none;
   display: flex;
   gap: 20px;
+  align-items:center;
 }
 
 .navbar a {
@@ -69,7 +71,7 @@ header {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  margin-left:20px;
+  margin-left:10px;
   
 }
 
