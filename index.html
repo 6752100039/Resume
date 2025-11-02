@@ -3,83 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[ชื่อ-นามสกุล]</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ======== Navbar ======== -->
-  <table class="navbar">
+  <!-- ส่วน Header และข้อมูลส่วนตัว -->
+  <table class="profile-section">
     <tr>
-      <td><h2>[ชื่อเล่น]</h2></td>
-      <td align="right">
-        <table class="nav-links" id="nav-links">
-          <tr>
-            <td><a href="#about">About Me</a></td>
-            <td><a href="#education">Education</a></td>
-            <td><a href="#employment">Employment</a></td>
-            <td><a href="#skills">Skills</a></td>
-            <td><a href="#contact">Contact</a></td>
-          </tr>
-        </table>
+      <td rowspan="4" class="profile-pic">
+        <img src="profile.jpg" alt="[รูปภาพของฉัน]">
       </td>
+      <td><h1>[ชื่อ-นามสกุล]</h1></td>
+    </tr>
+    <tr><td><em>[สาขาวิชา]</em></td></tr>
+    <tr><td>[ชื่อคณะ]</td></tr>
+    <tr>
+      <td><a href="http://pim.ac.th" target="_blank">[สถาบันฯ - คลิกลิงก์]</a></td>
     </tr>
   </table>
 
-  <!-- ======== Profile Section ======== -->
-  <table class="profile-table">
+  <hr>
+
+  <!-- ประวัติย่อ -->
+  <section class="intro">
+    <p>[ประวัติโดยย่อของตนเอง เป็นคำแนะนำสั้น ๆ]</p>
+  </section>
+
+  <hr>
+
+  <!-- ส่วนเนื้อหาแต่ละหมวด -->
+  <table class="content-section">
     <tr>
-      <td align="center">
-        <img src="[ใส่ชื่อไฟล์รูปของคุณ.jpg]" alt="Profile Picture" class="profile-pic">
-        <h1>[ชื่อ-นามสกุล]</h1>
-        <p><em>[สาขาวิชา]</em></p>
-        <p>[ชื่อคณะ]</p>
-        <p><a href="http://pim.ac.th" target="_blank">[สถาบันการจัดการปัญญาภิวัฒน์]</a></p>
-        <hr>
-        <p>[ประวัติโดยย่อของคุณ หรือคำแนะนำสั้น ๆ]</p>
-      </td>
+      <td id="about"><h2>เกี่ยวกับฉัน (About Me)</h2><p>[รายละเอียดเกี่ยวกับตัวฉัน]</p></td>
+      <td id="education"><h2>การศึกษา (Education)</h2><p>[รายละเอียดการศึกษา]</p></td>
+      <td id="skills"><h2>Skills</h2><p>[แสดงทักษะของคุณ]</p></td>
     </tr>
   </table>
 
-  <!-- ======== About Me ======== -->
-  <table class="content-table" id="about">
-    <tr><td><h2>About Me</h2></td></tr>
-    <tr><td>[ใส่เนื้อหาเกี่ยวกับตัวคุณ]</td></tr>
-  </table>
+  <hr>
 
-  <!-- ======== Education ======== -->
-  <table class="content-table" id="education">
-    <tr><td><h2>Education</h2></td></tr>
-    <tr><td>[ใส่ประวัติการศึกษา]</td></tr>
-  </table>
-
-  <!-- ======== Employment ======== -->
-  <table class="content-table" id="employment">
-    <tr><td><h2>Employment History</h2></td></tr>
-    <tr><td>[ใส่ประวัติการฝึกงานหรือการทำงาน]</td></tr>
-  </table>
-
-  <!-- ======== Skills ======== -->
-  <table class="content-table" id="skills">
-    <tr><td><h2>Skills</h2></td></tr>
-    <tr><td>[ใส่ทักษะของคุณ เช่น Programming, Teamwork, Communication]</td></tr>
-  </table>
-
-  <!-- ======== Contact ======== -->
-  <table class="content-table" id="contact">
-    <tr><td><h2>Contact</h2></td></tr>
-    <tr>
-      <td>
-        <ol>
-          <li>อีเมล: [ชื่ออีเมล]<img src="at-icon.png" alt="@" width="15">pim.ac.th</li>
-          <li>เบอร์โทรศัพท์: [xxx-xxx-xxxx]</li>
-          <li>ที่อยู่: [ใส่เขต/จังหวัด]</li>
-          <li>อื่น ๆ: [เช่น Facebook / GitHub / Line ID]</li>
-        </ol>
-      </td>
-    </tr>
-  </table>
+  <!-- ส่วนติดต่อ -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <ol>
+      <li>อีเมล์: [ชื่ออีเมล์] <img src="email_icon.png" alt="@"></li>
+      <li>เบอร์โทรศัพท์: [เบอร์โทร]</li>
+      <li>ที่อยู่: [ที่อยู่]</li>
+    </ol>
+  </section>
 
 </body>
-</html>
 </html>
