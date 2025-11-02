@@ -1,101 +1,71 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume - นภสร บำรุงพงษ์</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - นภสร บำรุงพงษ์</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <h1>นภสร บำรุงพงษ์</h1>
+            <p><em>สาขาเทคโนโลยีสารสนเทศ</em></p>
+            <p>คณะวิศวกรรมศาสตร์และเทคโนโลยี</p>
+            <p><a href="http://pim.ac.th" target="_blank">สถาบันการจัดการปัญญาภิวัฒน์</a></p>
+        </div>
 
-  <div class="container">
+        <nav class="navbar">
+            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="hamburger">&#9776;</label>
+            <ul class="menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- ส่วนซ้าย -->
-    <div class="left-section">
-      <div class="profile-pic">
-        <img src="Messenger_creation_C05C3FDC-8698-42AA-B775-25B2535A0328.png" alt="รูปโปรไฟล์" width="255" height="255">
-</div>
-      <div class="section">
-      <div class="desc-box">
-        <h2 class=" name-box">ประวัติส่วนตัว</h2>
-        <p>ชื่อ: นภสร บำรุงพงษ์</p>
-        <p>ชื่อเล่น: อิ้งค์</p>
-        <p>อายุ: 19</p>
-        <p>วันเกิด: 06 มีนาคม 2548</p>
-        <p>เชื้อชาติ: ไทย</p>
-        <p>ศาสนา: พุทธ</p>
-      </div></div>
+    <section class="profile">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" alt="Profile" class="profile-pic">
+        <hr>
+    </section>
 
-      <div class="section">
-        <div class="desc-box">
-        <h2 class=" name-box">ข้อมูล</h2>
-        <ul>
-          <li>สาขาเทคโนโลยีดิจิทัลและสารสนเทศ</li>
-          <li>คณะวิศวกรรมศาสตรและเทคโนโลยี</li>
-          <li><a href= "http://pim.ac.th">สถาบันการจัดกสรปัญญาภิวัฒน์</a></li>
-        </ul>
-      </div>
-    </div>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>สวัสดีค่ะ ฉันชื่อ นภสร บำรุงพงษ์ เป็นนักศึกษาที่มีความสนใจด้านเทคโนโลยีและการพัฒนาเว็บไซต์ ชอบเรียนรู้สิ่งใหม่ ๆ และพัฒนาทักษะให้ดียิ่งขึ้นอยู่เสมอ</p>
+        </section>
 
-    <!-- ส่วนขวา -->
-    <div class="right-section">
-      <h1 class= "intro">นภสร บำรุงพงษ์</h1>
+        <section id="education">
+            <h2>Education</h2>
+            <p>กำลังศึกษาอยู่ในสาขาเทคโนโลยีสารสนเทศ คณะวิศวกรรมศาสตร์และเทคโนโลยี สถาบันการจัดการปัญญาภิวัฒน์</p>
+        </section>
 
-      <div class="contact">
-        <div class="desc-box">
-        <h3 class=" name-box">ติดต่อ</h3>
-        <p>เบอร์โทร: [00-0000-000]</p>
-        <p>อีเมล: [6752100039@stu.pim.ac.th]</p>
-        <p>ที่อยู่: [นนทบุรี,ปากเกร็ด]</p>
-      </div>
-      </div >
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Python (พื้นฐาน)</li>
+                <li>Responsive Web Design</li>
+                <li>การออกแบบ UI/UX เบื้องต้น</li>
+            </ul>
+        </section>
 
-      <div class="section">
-        <div class="desc-box">
-        <h2>ประวัติการทำงาน</h2>
-        <h4>2024 Studio Showde — Senior Graphic Designer</h4>
-        <ul>
-          <li>ออกแบบงานกราฟิกและองค์ประกอบสื่อโฆษณา</li>
-          <li>ดูแลโครงการต่าง ๆ และประสานงานกับลูกค้า</li>
-          <li>ร่วมพัฒนาแผนการตลาดเชิงกราฟิก</li>
-        </ul>
+        <section id="contact">
+            <h2>Contact</h2>
+            <ol>
+                <li>อีเมล: napasorn<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/At_sign.svg" alt="@" class="at-symbol">pim.ac.th</li>
+                <li>โทรศัพท์: 08x-xxx-xxxx</li>
+                <li>ที่อยู่: เขตบางเขน กรุงเทพมหานคร</li>
+            </ol>
+        </section>
+    </main>
 
-        <h4>2022–2023 Warner & Spencer — Junior Graphic Designer</h4>
-        <ul>
-          <li>ออกแบบงานกราฟิกสำหรับสื่อออนไลน์</li>
-          <li>คิดและออกแบบโลโก้และเว็บไซต์</li>
-        </ul>
-      </div>
-      </div>
-
-      <div class="section">
-        <div class="desc-box">
-        <h2 class=" name-box">ทักษะความสามารถ</h2>
-        <ul>
-          <li>มีความรู้พื้นฐานในการออกแบบ</li>
-          <li>ใช้โปรแกรม Adobe ได้ดี</li>
-          <li>มีความรับผิดชอบสูง</li>
-          <li>ทำงานร่วมทีมได้ดี</li>
-        </ul>
-      </div>
-    </div>
-    </div>
-
-  </div>
-  
-
+    <footer>
+        <p>© 2025 นภสร บำรุงพงษ์</p>
+    </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
 
