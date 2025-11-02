@@ -70,6 +70,7 @@ header {
   display: none;
   font-size: 28px;
   cursor: pointer;
+  margin-left:auto;
   
 }
 
@@ -81,10 +82,11 @@ header {
 @media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
+    display: none;
     background-color: #A1CAE2;
     position: absolute;
     top: 70px;
-    right: 20px;
+    right: 0px;
     width: 200px;
     padding: 15px;
     display: none;
