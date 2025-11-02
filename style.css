@@ -1,0 +1,173 @@
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sarabun", sans-serif;
+  background-color: #f4f8ff;
+  color: #1c3b72;
+  line-height: 1.6;
+}
+
+/* ========== HEADER ========== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Logo / ชื่อ */
+.logo h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.logo p {
+  color: #e3f2fd;
+  margin: 2px 0;
+}
+
+.logo a {
+  color: #cfe6ff;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+}
+
+/* ========== NAVBAR ========== */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #e0f0ff;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+/* สำหรับมือถือ */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    background-color: #005ecb;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    padding: 15px;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  #toggle-menu:checked + .hamburger + .menu {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* ========== PROFILE ========== */
+.profile {
+  text-align: center;
+  padding: 50px 20px 30px 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 6px solid #007bff;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+hr {
+  width: 60%;
+  margin: 30px auto;
+  border: none;
+  border-top: 2px solid #cce0ff;
+}
+
+/* ========== MAIN CONTENT ========== */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  color: #0056b3;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* รายการ */
+ul, ol {
+  margin-left: 25px;
+}
+
+/* ========== CONTACT ========== */
+#contact ol {
+  list-style-type: decimal;
+  margin-left: 25px;
+}
+
+#contact li {
+  margin-bottom: 10px;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
