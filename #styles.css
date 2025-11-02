@@ -228,47 +228,14 @@ hr {
   margin-bottom: 10px;
 }
 
-/* Responsive สำหรับหน้าจอเล็ก */
 @media (max-width: 768px) {
-  .content-section td {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .profile-section, .intro, #contact {
-    width: 95%;
-  }
-  .profile-section img {
-    display: block;
-    margin: 0 auto 15px auto;
-  }
-  .profile-section td {
-    text-align: center;
-  }
-}.content-table h2 {
-  color: #234b8c;
-  margin-bottom: 10px;
-  text-align: left;
+  .container { flex-direction: column; }
+  .left-section, .right-section { width: 100%; }
+  .right-section { padding: 20px; }
 }
 
-hr {
-  margin: 20px 0;
-  border: none;
-  border-top: 2px dashed #a7c7ff;
 }
 
-/* ======== Responsive ======== */
-@media (max-width: 768px) {
-  .nav-links td {
-    display: block;
-    padding: 10px 0;
-    text-align: center;
-  }
-
-  .navbar {
-    text-align: center;
-  }
-}
 
 
 
