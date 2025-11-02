@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #007bff;
+  background-color: #dce9ff;
   color: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   position: sticky;
@@ -61,7 +61,7 @@ header {
 }
 
 .navbar a:hover {
-  color: #e0f0ff;
+  color: #a2c2f2;
 }
 
 .hamburger {
@@ -108,7 +108,7 @@ header {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 6px solid #007bff;
+  border: 6px solid #dce9ff;
   object-fit: cover;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
