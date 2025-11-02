@@ -97,6 +97,15 @@ hr {
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
+    .desc-box {
+      background-color: #CDFFFC;
+      border: 2px solid #A1D0BE;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      width: 300px;
+      height: 80px;
+    }
 
 /* ส่วนติดต่อ */
 #contact {
@@ -165,4 +174,5 @@ hr {
     text-align: center;
   }
 }
+
 
