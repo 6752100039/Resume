@@ -1,45 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <head>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[ชื่อ-นามสกุล]</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="oooll.png"alt="แมว">
-    <h1 style="color: rgb(109, 176, 221);">ข้อมูลนักศึกษา</h1>
-    <p>ชื่อ-นามสกุล นภสร บำรุงพงษ์ </p>
 
-<P>ชื่อเล่น
-    อิ้ง
-</P>
-<p>สาขาวิชา เทคโนโลยีดิจิตอลและเทคโนโลยีสารสนเทศ</p>
-<p>กลุ่มเรียน 1.2-1</p>
-    <hr style="height: 5px; background-color: rgb(61, 6, 112); border: none;">
+  <!-- ======== Navbar ======== -->
+  <table class="navbar">
+    <tr>
+      <td><h2>[ชื่อเล่น]</h2></td>
+      <td align="right">
+        <table class="nav-links" id="nav-links">
+          <tr>
+            <td><a href="#about">About Me</a></td>
+            <td><a href="#education">Education</a></td>
+            <td><a href="#employment">Employment</a></td>
+            <td><a href="#skills">Skills</a></td>
+            <td><a href="#contact">Contact</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-    <h2>เหตุผลที่อยากเรียน Full stack web development</h2>
-    <p>เหตุผลเรียนเพราะอยากฝึกทักษะเขียนโค้ดให้มากขึ้นและมีอยู่ในตารางเรียน</p>
-    <h4>ความคาดหวังต่อวิชานี้</h4>
-    <p>เขียนโค้ดไม่อยากสามารถหาดูและตามงานได้ทันอาจาร์พูดช้าๆไม่รีบ</p>
+  <!-- ======== Profile Section ======== -->
+  <table class="profile-table">
+    <tr>
+      <td align="center">
+        <img src="[ใส่ชื่อไฟล์รูปของคุณ.jpg]" alt="Profile Picture" class="profile-pic">
+        <h1>[ชื่อ-นามสกุล]</h1>
+        <p><em>[สาขาวิชา]</em></p>
+        <p>[ชื่อคณะ]</p>
+        <p><a href="http://pim.ac.th" target="_blank">[สถาบันการจัดการปัญญาภิวัฒน์]</a></p>
+        <hr>
+        <p>[ประวัติโดยย่อของคุณ หรือคำแนะนำสั้น ๆ]</p>
+      </td>
+    </tr>
+  </table>
 
-<h3>จุดอ่อน</h3>
-<ul>
-    <li>เขียนโค้ด เนื่อจากจำคำศัพย์ภาษาที่จะเขียนไม่ได้ เปิดยูทูปเรียนเองนอกเวลาเรียน</li>
-<li>ภาษาอังกฦษ ฝึกจำหรือเขียนภาษาอังกฦษให้มากขึ้น</li>
-<li>มีสมาธิสัน ไม่ค่อยมีสาธิอาจจะฝึกนั่งสมาธิหรือไม่ก็จดจ่อกับการเขียนมากขึ้นตั่งเป้าหมาย</li>
-</ul>
+  <!-- ======== About Me ======== -->
+  <table class="content-table" id="about">
+    <tr><td><h2>About Me</h2></td></tr>
+    <tr><td>[ใส่เนื้อหาเกี่ยวกับตัวคุณ]</td></tr>
+  </table>
 
-<hr style="height: 5px; background-color: rgb(61, 6, 112); border: none;">
+  <!-- ======== Education ======== -->
+  <table class="content-table" id="education">
+    <tr><td><h2>Education</h2></td></tr>
+    <tr><td>[ใส่ประวัติการศึกษา]</td></tr>
+  </table>
 
+  <!-- ======== Employment ======== -->
+  <table class="content-table" id="employment">
+    <tr><td><h2>Employment History</h2></td></tr>
+    <tr><td>[ใส่ประวัติการฝึกงานหรือการทำงาน]</td></tr>
+  </table>
 
+  <!-- ======== Skills ======== -->
+  <table class="content-table" id="skills">
+    <tr><td><h2>Skills</h2></td></tr>
+    <tr><td>[ใส่ทักษะของคุณ เช่น Programming, Teamwork, Communication]</td></tr>
+  </table>
 
-<p>เว็บไซร์ที่ชอบ</p>
-    <a href="https://new-elearning.pim.ac.th/">กดที่นี้</a>
-<hr style="height: 5px; background-color: rgb(61, 6, 112); border: none;">
+  <!-- ======== Contact ======== -->
+  <table class="content-table" id="contact">
+    <tr><td><h2>Contact</h2></td></tr>
+    <tr>
+      <td>
+        <ol>
+          <li>อีเมล: [ชื่ออีเมล]<img src="at-icon.png" alt="@" width="15">pim.ac.th</li>
+          <li>เบอร์โทรศัพท์: [xxx-xxx-xxxx]</li>
+          <li>ที่อยู่: [ใส่เขต/จังหวัด]</li>
+          <li>อื่น ๆ: [เช่น Facebook / GitHub / Line ID]</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
 
-     <img src="download.jpg"alt="แมว">
 </body>
+</html>
 </html>
